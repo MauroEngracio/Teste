@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Decodificador de Texto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="cabecalho">
+        <img class="fotoAlura" src="./assests/fotoAlura.png">
+    </header>
+
+    <main class="container">
+
+        <section class="container__criptografia">
+                <textarea class="digiteTexto" cols="41" rols="4" placeholder="Digite seu Texto..." ></textarea>
+
+                <div class="exclamacao">
+                    <img src="./assests/exclamacao.png">
+                    <h6>Apenas letras minúsculas e sem acento.</h6>
+                </div>
+
+                <div class="botoes">
+                    <button onclick="criptografar()" class="botao__criptografar">Criptografar</button>
+                    <button onclick="descriptografar()" class="botao__descriptografar">Descriptografar</button>
+                </div>
+
+        </section>
+
+        <section class="esquerda">
+            <div class="mensagemResposta">
+             <textarea class="textoResposta" cols="20" rols="10"></textarea>
+             <div class="imgmoca">
+                <img src="./assests/mulherObservando.png">
+             </div>
+             <div>
+                <button onclick="copiar()" class="botaoCopiar">Copiar</button>
+             </div>
+            </div>
+            
+        </section>
+     
+    </main>
+
+    <footer class="rodape">
+        <p> Desenvolvido por Mauro Engracio</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
